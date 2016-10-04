@@ -12,4 +12,7 @@ notifications:
     
 notifications:
   email:
-    - mlfauske@gmail.com
+    recipients:
+      - mlfauske@gmail.com
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always

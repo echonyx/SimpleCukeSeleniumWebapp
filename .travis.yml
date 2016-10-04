@@ -5,3 +5,11 @@ rvm:
  - rbx-2
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
+
+notifications:
+  slack:
+    on_success: always
+    
+notifications:
+  email:
+    - mlfauske@gmail.com

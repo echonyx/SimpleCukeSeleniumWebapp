@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 /**
  *
@@ -13,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class BestillStartpakkeTrinnDefinisjoner {
     
-    private WebDriver driver = new FirefoxDriver();
+    private HtmlUnitDriver driver = new HtmlUnitDriver();
     
     @Gitt("^at en bruker velger liten startpakke$")
     public void at_en_bruker_velger_liten_startpakke() throws Throwable {
